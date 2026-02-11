@@ -82,13 +82,31 @@
         transform: translateY(-10vh) rotate(45deg);
       }
     }
+  
+
+    /* Watermark Background Text */
+    .watermark {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 6rem;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.15);
+      z-index: 0;
+      text-transform: uppercase;
+      pointer-events: none;
+    }
   </style>
 </head>
 <body>
 
+  <div class="watermark">Arun Niki</div>
+
   <div class="container">
-    <h1>Happy Valentine's Day ❤️</h1>
-    <p>mahhh mam</p>
+    <h1>Happy Valentines Day Mahh Man ❤️</h1>
     <div class="name">— by Nikitha Sri</div>
   </div>
 
